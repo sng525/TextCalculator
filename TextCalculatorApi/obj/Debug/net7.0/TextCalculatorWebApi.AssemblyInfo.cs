@@ -10,6 +10,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("393e0fc0-1e77-4d4c-9ef6-f4b6d2b2a5a5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TextCalculatorWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

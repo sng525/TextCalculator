@@ -31,3 +31,6 @@
 /Users/juliasong/Documents/Personal/找工作/Full-time job 2023/LinkedIn EasyApply/Opus Dentail Sverige/tech test/TextCalculator/TextCalculatorApi/obj/Debug/net7.0/TextCalculatorWebApi.pdb
 /Users/juliasong/Documents/Personal/找工作/Full-time job 2023/LinkedIn EasyApply/Opus Dentail Sverige/tech test/TextCalculator/TextCalculatorApi/obj/Debug/net7.0/TextCalculatorWebApi.genruntimeconfig.cache
 /Users/juliasong/Documents/Personal/找工作/Full-time job 2023/LinkedIn EasyApply/Opus Dentail Sverige/tech test/TextCalculator/TextCalculatorApi/obj/Debug/net7.0/ref/TextCalculatorWebApi.dll
+/Users/juliasong/Documents/Personal/找工作/Full-time job 2023/LinkedIn EasyApply/Opus Dentail Sverige/tech test/TextCalculator/TextCalculatorApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/juliasong/Documents/Personal/找工作/Full-time job 2023/LinkedIn EasyApply/Opus Dentail Sverige/tech test/TextCalculator/TextCalculatorApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/juliasong/Documents/Personal/找工作/Full-time job 2023/LinkedIn EasyApply/Opus Dentail Sverige/tech test/TextCalculator/TextCalculatorApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.InMemory.dll

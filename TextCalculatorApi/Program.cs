@@ -1,5 +1,8 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using TextCalculatorApi;
 
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<CalculatorService>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

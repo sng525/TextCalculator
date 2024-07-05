@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bRyTH+6c3U5zz41lQ5mTE5zR4LCCwu647cKh7kCxvQQ=",
+  "Hash": "w5yRcf0sE2OJ7SGWfyL/pckvlzrFlT3G9Cxit2bSfE8=",
   "Source": "TextCalculatorWebApp",
   "BasePath": "_content/TextCalculatorWebApp",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/juliasong/Documents/Personal/找工作/Full-time job 2023/LinkedIn EasyApply/Opus Dentail Sverige/tech test/TextCalculator/TextCalculatorWebApp/obj/Debug/net7.0/scopedcss/projectbundle/TextCalculatorWebApp.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/juliasong/Documents/Personal/找工作/Full-time job 2023/LinkedIn EasyApply/Opus Dentail Sverige/tech test/TextCalculator/TextCalculatorWebApp/wwwroot/.DS_Store",
+      "SourceId": "TextCalculatorWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/juliasong/Documents/Personal/找工作/Full-time job 2023/LinkedIn EasyApply/Opus Dentail Sverige/tech test/TextCalculator/TextCalculatorWebApp/wwwroot/",
+      "BasePath": "_content/TextCalculatorWebApp",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/juliasong/Documents/Personal/找工作/Full-time job 2023/LinkedIn EasyApply/Opus Dentail Sverige/tech test/TextCalculator/TextCalculatorWebApp/wwwroot/css/site.css",

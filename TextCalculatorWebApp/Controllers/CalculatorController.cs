@@ -14,10 +14,12 @@ namespace TextCalculatorWebApp.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Index(CalculatorModel calculator)
+        public async Task<IActionResult> Index(string number)
         {
+            var calculator = new CalculatorModel(number);
+
             if (ModelState.IsValid) {
-                var result = await _client.AddNumber(calculator.number);
+                var result = await _client.AddNumber(number);
                 calculator.result = result;
             }
             return View(calculator);

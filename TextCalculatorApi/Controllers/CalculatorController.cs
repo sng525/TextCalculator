@@ -9,12 +9,14 @@ public class CalculatorController : ControllerBase
 {
     private readonly CalculatorService _calculatorService;
 
-    public CalculatorController()
+    public CalculatorController(CalculatorService calculatorService)
     {
-        _calculatorService = new CalculatorService();
+        _calculatorService = calculatorService;
     }
 
-    [HttpGet]
+    // public IActionResult Add(string number)
+    [HttpGet("{number}")]
+    // [HttpGet]
     public string Add(string number)
     {
         var result = _calculatorService.Add(number);

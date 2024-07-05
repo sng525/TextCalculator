@@ -22,7 +22,8 @@
                 throw new InvalidOperationException("Missing number in the input.");
             }
 
-            var numArray = number.Split(',').Select(n => Convert.ToDecimal(n)).ToArray();
+            // var numArray = number.Split(',').Select(n => Convert.ToDecimal(n)).ToArray();
+            var numArray = number.Split(',').Select(Convert.ToDecimal);
             decimal sum = 0;
             string negativeString = "";
 
@@ -38,7 +39,7 @@
                 }
             }
 
-            if (negativeString.Length > 0)
+            if (negativeString.Length > 0) 
             {
                 throw new InvalidOperationException("Negative not allowed: " + negativeString.Substring(0, negativeString.Length - 2));
             }

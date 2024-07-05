@@ -15,7 +15,7 @@ namespace TextCalculatorWebApp.Helpers
 
         public async Task<string> AddNumber(string number)
         {
-            var url = $"{LocalPath}?number={Uri.EscapeDataString(number)}";
+            var url = $"{LocalPath}/{Uri.EscapeDataString(number)}";
             var response = await _httpClient.GetAsync(url);
             if (response.IsSuccessStatusCode)
             {
